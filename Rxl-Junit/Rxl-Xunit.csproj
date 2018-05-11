@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0A62C1FE-A1F8-4B02-A4AA-EE1F94F55C5B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Rxl_Junit</RootNamespace>
-    <AssemblyName>Rxl-Junit</AssemblyName>
+    <RootNamespace>Rxl_Xunit</RootNamespace>
+    <AssemblyName>Rxl-Xunit</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="rxl-to-junit.cs" />
+    <Compile Include="rxl-to-xunit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

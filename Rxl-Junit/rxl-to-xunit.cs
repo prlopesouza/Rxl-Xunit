@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace Rxl_Junit
+namespace Rxl_Xunit
 {
-    class RxlToJunit
+    class RxlToXunit
     {
         static int Main(string[] args)
         {
