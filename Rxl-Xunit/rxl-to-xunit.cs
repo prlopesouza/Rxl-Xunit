@@ -12,7 +12,7 @@ namespace Rxl_Xunit
     {
         static int Main(string[] args)
         {
-            string xslFile = "ranorex-to-xunit.xsl";
+            string xslFile = AppDomain.CurrentDomain.BaseDirectory + "ranorex-to-xunit.xsl";
 
             if (args.Length < 1)
             {
@@ -62,7 +62,7 @@ namespace Rxl_Xunit
             string path = Path.GetDirectoryName(rxlogFile);
             if (!path.Equals("")) path = path + "\\";
             string xUnitFile =  path + Path.GetFileNameWithoutExtension(rxlogFile) + "_xunit.xml";
-            Console.WriteLine("Arquivo = " + xUnitFile);
+
             if (File.Exists(xslFile))
             {
                 try
